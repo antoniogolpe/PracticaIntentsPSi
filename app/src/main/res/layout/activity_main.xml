@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.usuario.lab01golpe.MainActiv">
+
+    <TextView
+        android:id="@+id/tv_name_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_activ_str" />
+
+
+    <EditText
+        android:id="@+id/et_count_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/param_activ_but_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="callParamActivity"
+        android:text="@string/param_activ_but_str" />
+
+    <Button
+        android:id="@+id/result_activ_but_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="callResultActivity"
+        android:text="@string/result_activ_but_str" />
+
+    <Button
+        android:id="@+id/main_activ_but_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="callMainActivity"
+        android:text="@string/main_activ_but_str" />
+
+
+    <Button
+        android:id="@+id/OK_but_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onok"
+        android:text="@string/ok_but_str" />
+
+    <Button
+        android:id="@+id/kill_but_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onKill"
+        android:text="@string/kill_but_str" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lab01.Golpe</string>
+
+    <string name="result_activ_str">ResultActiv</string>
+    <string name="param_activ_str">ParamActiv</string>
+    <string name="main_activ_str">MainActiv</string>
+
+    <string name="result_activ_but_str">ResultActiv</string>
+    <string name="param_activ_but_str">ParamActiv</string>
+    <string name="main_activ_but_str">MainActiv</string>
+    <string name="ok_but_str">OK</string>
+    <string name="kill_but_str">Kill</string>
+
+    <string name="WebActiv_str">WebActiv</string>
+    <string name="action_edit">ActionEdit</string>
+    <string name="action_echo">ActionEcho</string>
+</resources>
